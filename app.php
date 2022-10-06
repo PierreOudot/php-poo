@@ -1,16 +1,33 @@
 <?php
+//importer l'autoloader
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . 'animal.php';
-require __DIR__ . 'Fish.php';
-require __DIR__ . 'BubbleFish.php';
-require __DIR__ . 'CatFish.php';
-require __DIR__ . 'ClownFish.php';
-require __DIR__ . 'Whale.php';
-require __DIR__ . 'Zebra.php';
-require __DIR__ . 'Elephant.php';
-require __DIR__ . 'Parrot.php';
-require __DIR__ . 'Dove.php';
 
+//definir les sources des classes, cf composer.json
+use App\Animals\{BubbleFish,CatFish,Fish,ClownFish,Whale,
+Dove,Elephant,Parrot,Zebra};
+
+
+
+
+
+
+$animals= array();
+
+for($i=0; $i<5;$i++){
+    $animals[]=new Fish();
+}
+
+for($i=0; $i<3;$i++){
+    $animals[]=new BubbleFish();
+}
+
+for($i=0; $i<2;$i++){
+    $animals[]=new CatFish();
+}
+
+for($i=0; $i<2;$i++){
+    $animals[]=new CatFish();
+}
 
 
 

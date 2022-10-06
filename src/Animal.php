@@ -7,20 +7,19 @@ abstract class Animal{
     private String $name;
 
 //constructeur
-    function __contruct($name){
-        $this->$name= $name;
+    function __contruct(){
     }
 
 //getter
     function getName():string{
-        return $this->$name;
+        return $this->name;
     }
 
     abstract protected function getNoise():String;
 
     public function noise():string{
 
-        return getNoise();
+        return $this->getNoise();
     }
 
 }

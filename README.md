@@ -46,5 +46,45 @@ auto-load :
 
 abstraction
 encapsulation: attention ne pas utiliser les getters/setter si inutile, cad si ils n'imposent aucun controle
-cf gymanstique des objets
+cf gymanstique des objets (objects calisthenics).
+heritagde
+polymorphisme
+
+interface : pas de methodes, ou abstraite (uniquement signature). ne definit que des attributs
+
+### *un peu d'object claisthenics :*
+
+### *2 niveaux d'indentation max*:
+
+créer des fonctions à la place
+
+### *limiter l'usage du mot else*:
+
+par ex utiliser des, return un truc
+
+dans le cas des except but est de propager l'except au point d'entrée, mais le but est de planter. Attention à la pertincence des else if, remplacer par un switch case.
+
+### *encapsuler les type primitifs*
+
+privilégier les Objets correspondants
+
+### *limiter les opérateurs d'objet par ligne*:
+
+. en java, -> en php
+eviter les cassures en cas de pb d'iniatlisation
+
+### *ne pas abréger le nom des variables:
+
+limiter l'utilisation des comm en ameliorant la lisibilité du code
+
+### *faire des petites classes/fonctions*:
+
+### *limiter le nomnbres d'attribus(propriétés)*:
+
+simplifier. en as-t-on besoin?
+
+### *utiliser les collections*
+
+### *limiter les accesseurs/mutat*
+
 
