@@ -7,11 +7,12 @@ abstract class Animal{
     private String $name;
 
 //constructeur
-    function __contruct(){
+    function __contruct($name){
+        $this->name= $name;
     }
 
 //getter
-    function getName():string{
+    public function getName():string{
         return $this->name;
     }
 
