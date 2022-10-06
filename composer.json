@@ -1,0 +1,17 @@
+{
+    "name": "pierre/zoo",
+    "description": "tp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Poo\\Tp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pierre",
+            "email": "114479562+PierreOudot@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
