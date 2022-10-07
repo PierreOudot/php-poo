@@ -16,8 +16,10 @@ abstract class Animal{
         return $this->name;
     }
 
+    
     abstract protected function getNoise():String;
 
+    //abstrait le code aux autres dev, pratique courante en php
     public function noise():string{
 
         return $this->getNoise();

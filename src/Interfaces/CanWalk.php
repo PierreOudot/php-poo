@@ -5,3 +5,5 @@
  interface CanWalk{
 
 }
+
+?>

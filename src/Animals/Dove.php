@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Animals;
-use App\Animal;
+use App\Animal; // si usage unique appeler au niveau de la fonction ex :App\Animal\x $var
+use App\interfaces\CanFly;
 
-class Dove extends Animal{
+class Dove extends Animal implements CanFly{
 
     function __construct(){
         parent::__construct("dove");

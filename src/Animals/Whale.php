@@ -14,3 +14,4 @@ class Whale extends Animal implements CanSwim{
         return "bloubloublou";
     }
 }
+?>

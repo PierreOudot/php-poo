@@ -14,3 +14,4 @@ class CatFish extends Animal implements CanSwim{
         return "bloubloublou";
     }
 }
+?>
