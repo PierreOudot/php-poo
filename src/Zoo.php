@@ -51,7 +51,7 @@ class Zoo{
         }
     }
 
-    static function visitTheZoo(){
+    function visitTheZoo(){
         if($this->aquarium == null){
 
         }
