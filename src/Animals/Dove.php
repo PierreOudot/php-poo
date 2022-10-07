@@ -6,7 +6,7 @@ use App\Animal;
 class Dove extends Animal{
 
     function __construct(){
-        parent::__contruct("dove");
+        parent::__construct("dove");
     }
 
     public function getNoise():String{
