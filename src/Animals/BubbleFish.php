@@ -4,11 +4,12 @@ namespace App\Animals;
 
 //source de la classe mère
 use App\Animal;
+use App\Interfaces\CanSwim;
 
-class BubbleFish extends Animal{
+class BubbleFish extends Animal {
 
     function __construct(){
-        parent::__contruct("bubblefish");
+        parent::__construct("bubblefish");
     }
 
     public function getNoise():String{

@@ -6,6 +6,8 @@ require __DIR__ . '/vendor/autoload.php';
 use App\Animals\{BubbleFish,CatFish,Fish,ClownFish,Whale,
 Dove,Elephant,Parrot,Zebra};
 
+use App\Interfaces;
+
 $animals= array();
 
 for($i=0; $i<5; $i++){

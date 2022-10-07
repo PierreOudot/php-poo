@@ -2,11 +2,12 @@
 
 namespace App\Animals;
 use App\Animal;
+use App\Interfaces\CanSwim;
 
-class CatFish extends Animal{
+class CatFish extends Animal implements CanSwim{
 
     function __construct(){
-        parent::__contruct("catFish");
+        parent::__construct("catFish");
     }
 
     public function getNoise():String{

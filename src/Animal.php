@@ -7,7 +7,7 @@ abstract class Animal{
     private String $name;
 
 //constructeur
-    function __contruct($name){
+    function __construct($name){
         $this->name= $name;
     }
 

@@ -6,7 +6,7 @@ use App\Animal;
 class Zebra extends Animal{
 
     function __construct(){
-        parent::__contruct("zebra");
+        parent::__construct("zebra");
     }
 
     public function getNoise():String{
